@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sheldon COOPER - Physicien surdoué et Geek qualifié</title>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Fichiers CSS -->
+<link rel="stylesheet" href="style/reset.css">
+<!--[if lt IE 9]> 
+	<link rel="stylesheet" href="css/cv.css" media="screen">
+<![endif]-->
+<link rel="stylesheet" media="screen and (max-width:480px)" href="style/mobile.css">
+<link rel="stylesheet" media="screen and (min-width:481px)" href="style/cv.css">
+<link rel="stylesheet" media="print" href="style/print.css">
+<link rel="stylesheet" media="screen" href="style/custom.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1><span class="capitalize">ginevra viviana</span> <span class="uppercase">diana </span></h1>
+					<h2>Linguistic mediator and content manager</h2>
+				</hgroup>
+
+				<figure>
+					<img src="img/foto.jpg" alt="Ginevra Viviana Diana">
+				</figure>
+		</div>
+	</header>
+	
+	<!-- Contact -->
+	<section class="contactform clearfix">
+		<div class="container_16">
+			<h3>Contactez-moi</h3>
+			<p>Remplissez le formulaire ci-dessous afin de m'envoyer un message. Je vous répondrais dans les plus bref délai. 
+			<br><em>Tous les champs sont requis.</em></p>
+			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="Votre message" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="nom" placeholder="Nom - Prénom" class="required" type="text">
+					<input name="email" placeholder="Adresse email" class="required" type="email">	
+					<input name="envoi" value="Envoyer le message" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+	
+	<!-- Corps -->
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<!-- About me -->
+			<div class="grid_8 apropos">
+				<h3> About me</h3>
+				<p>Cette section vous sert de présentation.</p>
+				<p>Pellentesque nec nisi at sapien sagittis sagittis. Aliquam eu 
+condimentum mauris. Proin accumsan enim at risus hendrerit lobortis. 
+Nunc sollicitudin sodales lectus, et rhoncus mi molestie hendrerit. 
+Vestibulum velit lorem, rhoncus a congue ultricies, faucibus facilisis 
+risus. Mauris turpis ante, aliquet ac venenatis at, ornare ut velit. 
+Duis ut erat neque, eget consectetur tellus. </p>
+			
+
+			<!-- experience -->
+
+				<h3>Experience</h3>
+				<ul>
+					<li>
+						<h4><strong>Front End web developer </strong>at Discue</h4>
+						<span class="lieu">Copenhagen</span>
+						<span class="dates">03/2014</span>
+						<p>Internship in Discue, a Danish Start-Up to develop a in social live streaming platform. Activities: Website development with HTLM5, CSS3, Javascript, jQuery technologies. Wordpress templates customization and development. Testing, code review and bug fixing.</p>
+					</li>
+					<li>
+						<h4><strong>Front End web developer </strong> at Celi</h4>
+						<span class="lieu">Torino</span>
+						<span class="dates">08/2013-02/2014</span>
+						<p>Internship in Celi, an Italian company specialized in architecture and development of semantic search engines and processing texts softwares. Activities: Content Management, use of Ontology . Study of accessibility and usability of websites and user interfaces. Development and design of websites using HTML5/Javascript and jQuery, D3, Google APIs, Maps libraries, Gephi.</p>
+					</li>
+					<li>
+						<h4><strong>Front desk </strong> at Stintino Travel and Tourism Board</h4>
+						<span class="lieu">Stintino </span>
+						<span class="dates">2011</span>
+						<p>Internship from Stintino local Travel and Tourism Board for organization and advertisement of tourist events and management of tourists accommodations. </p>
+					</li>
+				</ul>
+
+
+			<!-- Formations -->
+
+				<h3>Education</h3>
+				<ul>
+					<li>
+						<h4><strong>Master in Project and Management of Multimedia Communication </strong> Turin University</h4>
+						<span class="lieu">Torino</span>
+						<span class="dates">2012-2013</span>
+						<p>Italian first degree master in Project and Management of Multimedia Communication of Turin University, with honors. Activities: Web design and development, audio and video production, 2D and 3D graphics, management and production of multimedia products. Content management with open source CMS as Drupal, Joomla, WordPress. Software development using HTML5/CSS3/Javascript/jQuery languages, PHP, SQL, Python. Accessibility and usability of user interfaces. Project management.</p>
+					</li>
+					<li>
+						<h4><strong>Bachelor's degree of Science in Modern Languages </strong> Parma University</h4>
+						<span class="lieu">Parma</span>
+						<span class="dates">2008-2012</span>
+						<p>Bachelor's degree of Science in Modern Languages of Parma University with comprehensive final grade of 99/110. Language <strong>Spanish</strong> (main language, 3 years and literature), <strong>German</strong> (second language, 3 years and literature) and <strong>French </strong> (just a years)
+Graduation thesis Unamuno e la sua collaborazione con «El Correo» di Valencia, work about all articles wrote by Spanish writer Unamuno in «El Correo». Author and historical explanation and analysis to understand reasons and intentions of these writings.</p>
+					</li>
+
+
+				</ul>
+			</div>
+			
+			<!-- Skills -->
+			<div class="grid_8 competences">
+				<h3>Skills</h3>
+				<ul>
+					<li class="skills">
+						<h2>Languages</h2>
+						<ul class="barres skill_list">
+							<li data-skills="80">English<span style="width: 80%;"></span></li>
+							<li data-skills="90">Spanish<span style="width: 90%;"></span></li>
+							<li data-skills="100">Italian<span style="width: 100%;"></span></li>
+							<li data-skills="20">Portuguese <span style="width: 20%;"></span></li>
+							<li data-skills="20">German<span style="width: 20%;"></span></li>
+							<li data-skills="20">French<span style="width: 20%;"></span></li>
+						</ul>
+					</li>
+
+
+					<li class="skills">
+						<h2>IT</h2>
+						<ul class="barres skill_list">
+							<li data-skills="80">Html<span style="width: 80%;"></span></li>
+							<li data-skills="90">css<span style="width: 90%;"></span></li>
+							<li data-skills="100">javascript<span style="width: 100%;"></span></li>
+							<li data-skills="20">jquery <span style="width: 20%;"></span></li>
+							<li data-skills="20">Ubuntu Linux, Microsoft Windows<span style="width: 70%;"></span></li>
+							<li data-skills="20">Joomla, WordPress, publishing and multimedia management<span style="width: 50%;"></span></li>
+						</ul>
+					</li>
+			</div>
+
+		
+
+		</div>		
+		
+			<!-- Loisirs -->
+			<div class="grid_8 loisirs">
+				<h3>Loisirs</h3>
+				<p><strong>Sports :</strong> si vous en pratiquez</p>
+				<p><strong>Association :</strong> si vous êtes membre d'une association</p>
+				<p>D'autres loisirs plus vagues, complétez ici.</p>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 contact">
+				<h3>Contact</h3>
+				<p>Si mon profil vous intéresse, n'hésitez pas à me contacter :</p>
+				<ul>
+					<li class="lieu">Paris, France</li>
+					<li class="phone">06 00 00 00 00</li>
+					<li class="mail"><a href="mailto:mon.adresse@email.fr">mon.adresse@email.fr</a></li>
+					<li class="site"><a href="http://www.mon-site.fr/">www.mon-site.fr</a></li>
+					<li class="form"><a class="toContactform">via le formulaire de contact</a></li>
+                    <li class="form"><a class="toContactform">via le formulaire de contact</a></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- Scripts JavaScript -->
+<script src="Sheldon%20COOPER%20-%20Physicien%20surdou%C3%A9%20et%20Geek%20qualifi%C3%A9_files/jquery-1.js"></script>
+<script src="Sheldon%20COOPER%20-%20Physicien%20surdou%C3%A9%20et%20Geek%20qualifi%C3%A9_files/validate.js"></script>
+<!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]-->
+<script src="Sheldon%20COOPER%20-%20Physicien%20surdou%C3%A9%20et%20Geek%20qualifi%C3%A9_files/plugins.js"></script>
+
+</body></html>
